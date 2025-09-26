@@ -1,0 +1,13 @@
+id,patient_name,age,sex,chest_pain_type,resting_bp,cholesterol,fasting_bs,rest_ecg,max_hr,exercise_angina,oldpeak,st_slope,prediction,probability,diet_plan,exercise_plan,stress_plan,created_by,created_at
+1,krishna,56,1,2,120,250,2,2,135,2,2.0,1,High Risk,0.886213,"Low-sodium, balanced diet",Moderate aerobic exercise,Mindfulness & breathing techniques,shivaram,2025-08-30 14:34:48
+2,Sharath,56,1,1,130,250,1,0,150,1,2.0,0,High Risk,0.842923,"Low-sodium, balanced diet",Moderate aerobic exercise,Mindfulness & breathing techniques,shivaram,2025-08-30 14:48:54
+3,mohan,45,1,0,120,200,0,0,150,1,2.0,1,High Risk,0.876064,"Low-sodium, balanced diet",Moderate aerobic exercise,Mindfulness & breathing techniques,shivaram,2025-08-30 15:07:03
+4,rakesh,62,1,0,120,240,0,0,130,0,1.0,2,Low Risk,0.63727,Normal healthy diet,Regular fitness activity,Mindfulness & breathing techniques,shivaram,2025-08-30 15:09:28
+5,mohan,56,1,1,120,200,0,0,120,0,2.0,0,High Risk,0.698482,"Low-sodium, balanced diet",Moderate aerobic exercise,Mindfulness & breathing techniques,shivaram,2025-08-30 15:22:13
+6,renuka,56,0,2,120,230,1,0,130,0,1.0,0,Low Risk,0.653717,Normal healthy diet,Regular fitness activity,Mindfulness & breathing techniques,naveen yadav,2025-08-30 16:15:45
+7,raju,54,1,3,150,260,0,1,160,1,2.0,2,Low Risk,0.679774,Normal healthy diet,Regular fitness activity,Mindfulness & breathing techniques,naveen yadav,2025-08-30 16:16:49
+8,mahesh,65,1,2,130,230,0,1,160,1,2.0,1,High Risk,0.644059,Balanced diet with limited fatty food.,"30 mins of jogging, cycling, or swimming.",Mindfulness & regular relaxation activities.,shivaram,2025-08-30 16:50:21
+9,nagaraj,45,1,1,130,250,1,0,160,0,2.0,0,Low Risk,0.691046,"Low-fat, high-fiber diet. Avoid red meat and fried food.","30 mins of jogging, cycling, or swimming.",Mindfulness & regular relaxation activities.,shivaram,2025-08-30 17:00:55
+10,sandeep,56,1,0,150,240,1,0,140,1,2.0,0,High Risk,0.943434,Balanced diet with limited fatty food.,"30 mins of jogging, cycling, or swimming.","Daily meditation, breathing exercises, and reduce salt intake.",shivaram,2025-08-30 17:12:57
+11,lokesh,47,1,3,150,240,1,1,140,1,2.0,2,Low Risk,0.582898,Balanced diet with limited fatty food.,"30 mins of jogging, cycling, or swimming.","Daily meditation, breathing exercises, and reduce salt intake.",shivaram,2025-08-30 17:19:29
+12,ritvik,56,1,2,150,240,1,1,150,1,2.0,0,High Risk,0.797859,Balanced diet with limited fatty food.,"30 mins of jogging, cycling, or swimming.","Daily meditation, breathing exercises, and reduce salt intake.",shivaram,2025-08-30 17:25:15
