@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row vh-100">
+  <!-- Left side image -->
+  <div class="col-md-6 d-none d-md-block p-0">
+    <img src="{{ url_for('static', filename='images/heartimage.jpg') }}"
+         alt="Heart" class="w-100 h-100" style="object-fit:cover;">
+  </div>
+
+  <!-- Right side form -->
+  <div class="col-md-6 d-flex align-items-center bg-light">
+    <div class="card shadow-sm p-4 w-75 mx-auto">
+      <h3 class="mb-3 text-center text-primary">Register</h3>
+      <form method="post" action="{{ url_for('register') }}">
+        <input class="form-control mb-2" name="username" placeholder="Username" required>
+        <input class="form-control mb-2" name="password" type="password" placeholder="Password" required>
+        <select class="form-select mb-2" name="role">
+          <option>User</option>
+          <option>Admin</option>
+        </select>
+        <div class="d-flex justify-content-between">
+          <button class="btn btn-success">Create Account</button>
+          <a class="btn btn-outline-secondary" href="{{ url_for('index') }}">Back</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
